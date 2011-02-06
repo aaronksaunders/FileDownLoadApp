@@ -1,0 +1,106 @@
+// !$*UTF8*$!
+{
+	1D6058900D05DD3D006BFB54 /* FileDownLoadApp */ = {
+		activeExec = 0;
+		executables = (
+			8DD2CBC7123752C10049CA7F /* FileDownLoadApp */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 8DD2CBC7123752C10049CA7F /* FileDownLoadApp */;
+		activeSDKPreference = iphonesimulator4.0;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* FileDownLoadApp */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* FileDownLoadApp */,
+		);
+		codeSenseManager = 8DD2CBE1123752C50049CA7F /* Code sense */;
+		executables = (
+			8DD2CBC7123752C10049CA7F /* FileDownLoadApp */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					341,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 305615553;
+			PBXWorkspaceStateSaveDate = 305615553;
+		};
+		sourceControlManager = 8DD2CBE0123752C50049CA7F /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	8DD2CBC7123752C10049CA7F /* FileDownLoadApp */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = FileDownLoadApp;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	8DD2CBE0123752C50049CA7F /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	8DD2CBE1123752C50049CA7F /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	8DD2CBE2123752FB0049CA7F /* PixFileDownload.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1229, 839}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 237}";
+		};
+	};
+	8DD2CBE3123752FB0049CA7F /* PixFileDownload.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1229, 791}}";
+			sepNavSelRange = "{869, 13}";
+			sepNavVisRange = "{0, 1009}";
+		};
+	};
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+  <head>
+	<!-- Change this if you want to allow scaling -->
+    <meta name="viewport" content="width=default-width; user-scalable=no" />
+
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+
+    <title>FileDownLoadApp</title>
+	
+	<!-- iPad/iPhone specific css below, add after your main css >
+	<link rel="stylesheet" media="only screen and (max-device-width: 1024px)" href="ipad.css" type="text/css" />		
+	<link rel="stylesheet" media="only screen and (max-device-width: 480px)" href="iphone.css" type="text/css" />		
+	-->
+	<script type="text/javascript" charset="utf-8" src="phonegap.js"></script>
+	<script type="text/javascript" charset="utf-8" src="pixFileDownload.js"></script>
+    <script type="text/javascript" charset="utf-8">
+
+
+	// If you want to prevent dragging, uncomment this section
+	/*
+	function preventBehavior(e) 
+	{ 
+      e.preventDefault(); 
+    };
+	document.addEventListener("touchmove", preventBehavior, false);
+	*/
+	
+	function onBodyLoad()
+	{
+		document.addEventListener("deviceready",onDeviceReady,false);
+	}
+	
+
+FileReader.prototype.readAsTextFromBundle = function(_file, _ext)
+{
+
+	if(this.fileName && this.fileName.length > 0)
+	{
+		navigator.fileMgr.removeFileReader(this.fileName,this);
+	}
+	this.fileName = _file;
+	navigator.fileMgr.addFileReader(this.fileName,this);
+	alert("Calling File.read : " + this.fileName);
+	//window.location = "gap://File.readFile/"+ file;
+	PhoneGap.exec("File.readFile",_file, _ext);
+}
+
+var readData = function (filename, directory)
+{
+        y = "";
+       
+        var filePath = directory + "/" + filename;
+        var fr = new FileReader();
+       
+        fr.onload = function (data)
+        {
+                if(data !== "(null)")
+                {
+                        alert(data);
+                }
+                else
+                {
+                        alert("File doesn't exist, or it's empty!");
+                }
+        };
+       
+        fr.readAsTextFromBundle("untitled","txt");
+}
+
+	
+	/* When this function is called, PhoneGap has been initialized and is ready to roll */
+	function onDeviceReady()
+	{
+		// do your thing!
+		
+		readData("newfile.txt","");
+		
+	}
+	
+	function  pixFileDownloadComplete( filePath ) {
+		alert( "Success \r" + filePath );
+	}
+    
+	function  pixFileDownloadCompleteWithError( message ) {
+		alert( "Error \r" + message );
+	}
+    
+    </script>
+  </head>
+  <body onload="onBodyLoad()">
+  	
+  </body>
+</html>

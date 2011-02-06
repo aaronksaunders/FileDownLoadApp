@@ -1,0 +1,621 @@
+TFileDownLoadApp
+v7
+r0
+t318644438.788573
+cCheck dependencies
+cCpResource build/Debug-iphoneos/FileDownLoadApp.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+cProcessInfoPlistFile /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/Debug-iphoneos/FileDownLoadApp.app/Info.plist FileDownLoadApp-Info.plist
+cPhaseScriptExecution "Copy PhoneGap Javascript" /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/FileDownLoadApp-iPad.build/Debug-iphoneos/FileDownLoadApp.build/Script-30E9A9A110B758320022D3BA.sh
+cPhaseScriptExecution "Touch www folder" /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/FileDownLoadApp-iPad.build/Debug-iphoneos/FileDownLoadApp.build/Script-304B58A110DAC018002A0835.sh
+cCpResource build/Debug-iphoneos/FileDownLoadApp.app/www www
+cCpResource build/Debug-iphoneos/FileDownLoadApp.app/VERSION /Users/aaronksaunders/Documents/PhoneGapLib/VERSION
+cCopyPNGFile /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/Debug-iphoneos/FileDownLoadApp.app/Default.png Default.png
+cCopyPNGFile /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/Debug-iphoneos/FileDownLoadApp.app/icon.png icon.png
+cCopyPlistFile /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/Debug-iphoneos/FileDownLoadApp.app/PhoneGap.plist PhoneGap.plist
+cCopyPNGFile /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/Debug-iphoneos/FileDownLoadApp.app/icon-72.png icon-72.png
+cCopyPNGFile /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/Debug-iphoneos/FileDownLoadApp.app/Default-Landscape.png Default-Landscape.png
+cCopyPNGFile /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/Debug-iphoneos/FileDownLoadApp.app/Default-Portrait.png Default-Portrait.png
+cProcessPCH /var/folders/Jn/Jn3JLzodGeurwoJZYN1BW++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FileDownLoadApp_Prefix-egnjrgktzikcmtdynvyxsfhwzywb/FileDownLoadApp_Prefix.pch.gch FileDownLoadApp_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FileDownLoadApp-iPad.build/Debug-iphoneos/FileDownLoadApp.build/Objects-normal/armv7/main.o /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FileDownLoadApp-iPad.build/Debug-iphoneos/FileDownLoadApp.build/Objects-normal/armv7/FileDownLoadAppAppDelegate.o /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/Classes/FileDownLoadAppAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/Debug-iphoneos/FileDownLoadApp.app/FileDownLoadApp normal armv7
+cGenerateDSYMFile /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/Debug-iphoneos/FileDownLoadApp.app.dSYM /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/Debug-iphoneos/FileDownLoadApp.app/FileDownLoadApp
+cProcessProductPackaging "/Users/aaronksaunders/Library/MobileDevice/Provisioning Profiles/CE3DBE55-6459-4FCC-8B85-3FD2765C0E40.mobileprovision" /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/Debug-iphoneos/FileDownLoadApp.app/embedded.mobileprovision
+cTouch /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/Debug-iphoneos/FileDownLoadApp.app
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/FileDownLoadApp-iPad.build/Debug-iphoneos/FileDownLoadApp.build/FileDownLoadApp.xcent
+cCodeSign /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/Debug-iphoneos/FileDownLoadApp.app
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk
+c000000004CC7DC9E0000000000000110
+t1288166558
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+c000000004CB3DFCF00000000000001A7
+t1286856655
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+c000000004CB3DFCF00000000000001E5
+t1286856655
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c000000004CC11C42000000000020BF30
+t1287724098
+s2146096
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.h
+c000000004CC11C240000000000000733
+t1287724068
+s1843
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/AddressBook.framework/AddressBook
+c000000004CC1107D00000000000C9AB0
+t1287721085
+s826032
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/AddressBook.framework/Headers/ABAddressBook.h
+c000000004CC110730000000000000A8C
+t1287721075
+s2700
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/AddressBookUI.framework/AddressBookUI
+c000000004CC11CDC0000000000245580
+t1287724252
+s2381184
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers/AddressBookUI.h
+c000000004CC11CB30000000000000202
+t1287724211
+s514
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004CC10EF400000000003B8CB0
+t1287720692
+s3902640
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioServices.h
+c000000004CC10EB60000000000010AAC
+t1287720630
+s68268
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+c000000004CC10EEE00000000002C9710
+t1287720686
+s2922256
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC10EF500000000003532B0
+t1287720693
+s3486384
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c000000004CC11B5300000000000D96F0
+t1287723859
+s890608
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.h
+c000000004CC11B4300000000000001D0
+t1287723843
+s464
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC10F4700000000003E1F20
+t1287720775
+s4071200
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC10F1C0000000000001466
+t1287720732
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/MediaPlayer.framework/MediaPlayer
+c000000004CC2483E000000000038CF50
+t1287800894
+s3723088
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+c000000004CC110680000000000094AF0
+t1287721064
+s609008
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004CC1127D0000000000267530
+t1287721597
+s2520368
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c000000004CC10E7900000000000B0C10
+t1287720569
+s723984
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC11AE60000000000000AA1
+t1287723750
+s2721
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UINavigationController.h
+c000000004CC11AE700000000000019AC
+t1287723751
+s6572
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITabBar.h
+c000000004CC11AE80000000000000C0D
+t1287723752
+s3085
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIToolbar.h
+c000000004CC11AE60000000000000734
+t1287723750
+s1844
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC11B750000000000C769F0
+t1287723893
+s13068784
+
+N/Users/aaronksaunders/Documents/PhoneGapLib/Classes/Contacts.h
+c000000004C0EBADA0000000000000A53
+t1276033754
+s2643
+i<Foundation/Foundation.h>
+i<AddressBook/ABAddressBook.h>
+i<AddressBookUI/AddressBookUI.h>
+i"PhoneGapCommand.h"
+
+N/Users/aaronksaunders/Documents/PhoneGapLib/Classes/DebugConsole.h
+c000000004C0EBADA0000000000000170
+t1276033754
+s368
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+i"PhoneGapCommand.h"
+
+N/Users/aaronksaunders/Documents/PhoneGapLib/Classes/JSON/JSON.h
+c000000004C0EBADA00000000000008F9
+t1276033754
+s2297
+i"SBJSON.h"
+i"NSObject+SBJSON.h"
+i"NSString+SBJSON.h"
+
+N/Users/aaronksaunders/Documents/PhoneGapLib/Classes/Location.h
+c000000004C0EBADA0000000000000530
+t1276033754
+s1328
+i<UIKit/UIKit.h>
+i<CoreLocation/CoreLocation.h>
+i"PhoneGapCommand.h"
+
+N/Users/aaronksaunders/Documents/PhoneGapLib/Classes/PhoneGapCommand.h
+c000000004C0EBADA00000000000002ED
+t1276033754
+s749
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/aaronksaunders/Documents/PhoneGapLib/Classes/PhoneGapDelegate.h
+c000000004C0EBADA00000000000006D8
+t1276033754
+s1752
+i<UIKit/UIKit.h>
+i<CoreLocation/CoreLocation.h>
+i<UIKit/UINavigationController.h>
+i"JSON/JSON.h"
+i"Location.h"
+i"Sound.h"
+i"Contacts.h"
+i"DebugConsole.h"
+i"UIControls.h"
+
+N/Users/aaronksaunders/Documents/PhoneGapLib/Classes/PhoneGapViewController.h
+c000000004C0EBADA0000000000000293
+t1276033754
+s659
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+
+N/Users/aaronksaunders/Documents/PhoneGapLib/Classes/Sound.h
+c000000004C7C6E780000000000000686
+t1283223160
+s1670
+i<Foundation/Foundation.h>
+i<AudioToolbox/AudioServices.h>
+i<AVFoundation/AVFoundation.h>
+i"PhoneGapCommand.h"
+
+N/Users/aaronksaunders/Documents/PhoneGapLib/Classes/UIControls.h
+c000000004C0EBADA000000000000066A
+t1276033754
+s1642
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+i<UIKit/UITabBar.h>
+i<UIKit/UIToolbar.h>
+i"PhoneGapCommand.h"
+
+N/Users/aaronksaunders/Documents/PhoneGapLib/VERSION
+c000000004C0EBADA0000000000000005
+t1276033754
+s5
+
+N/Users/aaronksaunders/Documents/PhoneGapLib/build/Debug-iphoneos/libPhoneGapLib.a
+c000000004D4DE93B0000000000250E50
+t1296951611
+s2428496
+
+N/Users/aaronksaunders/Documents/PhoneGapLib/build/Debug-iphonesimulator/libPhoneGapLib.a
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/aaronksaunders/Library/MobileDevice/Provisioning Profiles/CE3DBE55-6459-4FCC-8B85-3FD2765C0E40.mobileprovision
+c000000004D2FD0680000000000001DEE
+t1294979176
+s7662
+
+N/Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/Classes/FileDownLoadAppAppDelegate.h
+c000000004C87A2D4000000000000011D
+t1283957460
+s285
+i<UIKit/UIKit.h>
+i"PhoneGapDelegate.h"
+
+N/Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/Classes/FileDownLoadAppAppDelegate.m
+c000000004C87A2D40000000000000813
+t1283957460
+s2067
+i"FileDownLoadAppAppDelegate.h"
+i"PhoneGapViewController.h"
+
+N/Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/Default-Landscape.png
+c000000004C87A2D4000000000000154E
+t1283957460
+s5454
+
+N/Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/Default-Portrait.png
+c000000004C87A2D400000000000016C0
+t1283957460
+s5824
+
+N/Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/Default.png
+c000000004C87A2D40000000000000BAE
+t1283957460
+s2990
+
+N/Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/FileDownLoadApp_Prefix.pch
+c000000004C87A2D400000000000000C7
+t1283957460
+s199
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/PhoneGap.plist
+c000000004C87A2D4000000000000027E
+t1283957460
+s638
+
+N/Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/Debug-iphoneos/FileDownLoadApp.app
+t1296951638
+s578
+
+N/Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/Debug-iphoneos/FileDownLoadApp.app.dSYM
+t1296951638
+s102
+
+N/Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/Debug-iphoneos/FileDownLoadApp.app/Default-Landscape.png
+t1296951611
+s6245
+
+N/Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/Debug-iphoneos/FileDownLoadApp.app/Default-Portrait.png
+t1296951611
+s6630
+
+N/Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/Debug-iphoneos/FileDownLoadApp.app/Default.png
+t1296951611
+s3198
+
+N/Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/Debug-iphoneos/FileDownLoadApp.app/FileDownLoadApp
+t1296951638
+s215868
+
+N/Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/Debug-iphoneos/FileDownLoadApp.app/Info.plist
+t1296951611
+s1164
+
+N/Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/Debug-iphoneos/FileDownLoadApp.app/PhoneGap.plist
+t1296951611
+s255
+
+N/Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/Debug-iphoneos/FileDownLoadApp.app/PkgInfo
+t1296951611
+s8
+
+N/Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/Debug-iphoneos/FileDownLoadApp.app/ResourceRules.plist
+t1296951611
+s485
+
+N/Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/Debug-iphoneos/FileDownLoadApp.app/VERSION
+t1296951611
+s5
+
+N/Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/Debug-iphoneos/FileDownLoadApp.app/embedded.mobileprovision
+t1296951612
+s7662
+
+N/Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/Debug-iphoneos/FileDownLoadApp.app/icon-72.png
+t1296951611
+s7734
+
+N/Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/Debug-iphoneos/FileDownLoadApp.app/icon.png
+t1296951611
+s4584
+
+N/Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/Debug-iphoneos/FileDownLoadApp.app/www
+t1296951637
+s170
+
+N/Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/FileDownLoadApp-iPad.build/Debug-iphoneos/FileDownLoadApp.build/FileDownLoadApp.xcent
+t1296951612
+s436
+
+N/Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/FileDownLoadApp-iPad.build/Debug-iphoneos/FileDownLoadApp.build/Objects-normal/armv7/FileDownLoadApp.LinkFileList
+c000000004D4DE93B000000000000014E
+t1296951611
+s334
+
+N/Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/FileDownLoadApp-iPad.build/Debug-iphoneos/FileDownLoadApp.build/Objects-normal/armv7/FileDownLoadAppAppDelegate.o
+t1296951612
+s48444
+
+N/Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/FileDownLoadApp-iPad.build/Debug-iphoneos/FileDownLoadApp.build/Objects-normal/armv7/main.o
+t1296951612
+s6728
+
+N/Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/FileDownLoadApp-iPad.build/Debug-iphoneos/FileDownLoadApp.build/Script-304B58A110DAC018002A0835.sh
+c000000004D4DE93B0000000000000027
+t1296951611
+s39
+
+N/Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/FileDownLoadApp-iPad.build/Debug-iphoneos/FileDownLoadApp.build/Script-30E9A9A110B758320022D3BA.sh
+c000000004D4DE93B00000000000000BE
+t1296951611
+s190
+
+N/Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/icon-72.png
+c000000004C87A2D400000000000013B9
+t1283957460
+s5049
+
+N/Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/icon.png
+c000000004C87A2D40000000000000C36
+t1283957460
+s3126
+
+N/Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/main.m
+c000000004C87A2D4000000000000018C
+t1283957460
+s396
+i<UIKit/UIKit.h>
+
+N/Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/www
+c000000004D4DE95500000000000000CC
+t1296951637
+s204
+
+N/var/folders/Jn/Jn3JLzodGeurwoJZYN1BW++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FileDownLoadApp_Prefix-egnjrgktzikcmtdynvyxsfhwzywb/FileDownLoadApp_Prefix.pch.gch
+t1296951612
+s10467032
+
+NFileDownLoadApp-Info.plist
+c000000004C87A2D400000000000005C2
+t1283957460
+s1474
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies318644437#318644437#0(0"0(0#1#0"8611894176#0"0#
+
+CCodeSign /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/Debug-iphoneos/FileDownLoadApp.app
+s318644438.412745
+e318644438.788541
+r1
+xCodeSign
+x/Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/Debug-iphoneos/FileDownLoadApp.app
+lSLF07#2@49"CodeSign build/Debug-iphoneos/FileDownLoadApp.app318644438#318644438#0(0"0(0#0#98"/Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/Debug-iphoneos/FileDownLoadApp.app8610200032#833"    cd /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Aaron Saunders (Y8RD395ZZ3)" --resource-rules=/Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/Debug-iphoneos/FileDownLoadApp.app/ResourceRules.plist --entitlements /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/FileDownLoadApp-iPad.build/Debug-iphoneos/FileDownLoadApp.build/FileDownLoadApp.xcent /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/Debug-iphoneos/FileDownLoadApp.app0#
+
+CCompileC build/FileDownLoadApp-iPad.build/Debug-iphoneos/FileDownLoadApp.build/Objects-normal/armv7/FileDownLoadAppAppDelegate.o /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/Classes/FileDownLoadAppAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s318644412.303605
+e318644412.390420
+r1
+xCompileC
+xbuild/FileDownLoadApp-iPad.build/Debug-iphoneos/FileDownLoadApp.build/Objects-normal/armv7/FileDownLoadAppAppDelegate.o
+x/Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/Classes/FileDownLoadAppAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@102"Compile /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/Classes/FileDownLoadAppAppDelegate.m318644412#318644412#0(0"0(0#0#94"/Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/Classes/FileDownLoadAppAppDelegate.m8609991680#2301"    cd /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/FileDownLoadApp-iPad.build/Debug-iphoneos/FileDownLoadApp.build/FileDownLoadApp-generated-files.hmap -I/Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/FileDownLoadApp-iPad.build/Debug-iphoneos/FileDownLoadApp.build/FileDownLoadApp-own-target-headers.hmap -I/Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/FileDownLoadApp-iPad.build/Debug-iphoneos/FileDownLoadApp.build/FileDownLoadApp-all-target-headers.hmap -iquote /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/FileDownLoadApp-iPad.build/Debug-iphoneos/FileDownLoadApp.build/FileDownLoadApp-project-headers.hmap -F/Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/Debug-iphoneos -iquote/Users/aaronksaunders/Documents/PhoneGapLib/Classes -I/Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/Debug-iphoneos/include -I/Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/FileDownLoadApp-iPad.build/Debug-iphoneos/FileDownLoadApp.build/DerivedSources/armv7 -I/Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/FileDownLoadApp-iPad.build/Debug-iphoneos/FileDownLoadApp.build/DerivedSources -include /var/folders/Jn/Jn3JLzodGeurwoJZYN1BW++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FileDownLoadApp_Prefix-egnjrgktzikcmtdynvyxsfhwzywb/FileDownLoadApp_Prefix.pch -c /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/Classes/FileDownLoadAppAppDelegate.m -o /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/FileDownLoadApp-iPad.build/Debug-iphoneos/FileDownLoadApp.build/Objects-normal/armv7/FileDownLoadAppAppDelegate.o0#
+
+CCompileC build/FileDownLoadApp-iPad.build/Debug-iphoneos/FileDownLoadApp.build/Objects-normal/armv7/main.o /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s318644412.302811
+e318644412.340049
+r1
+xCompileC
+xbuild/FileDownLoadApp-iPad.build/Debug-iphoneos/FileDownLoadApp.build/Objects-normal/armv7/main.o
+x/Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/main.m318644412#318644412#0(0"0(0#0#64"/Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/main.m8610258368#2249"    cd /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/FileDownLoadApp-iPad.build/Debug-iphoneos/FileDownLoadApp.build/FileDownLoadApp-generated-files.hmap -I/Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/FileDownLoadApp-iPad.build/Debug-iphoneos/FileDownLoadApp.build/FileDownLoadApp-own-target-headers.hmap -I/Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/FileDownLoadApp-iPad.build/Debug-iphoneos/FileDownLoadApp.build/FileDownLoadApp-all-target-headers.hmap -iquote /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/FileDownLoadApp-iPad.build/Debug-iphoneos/FileDownLoadApp.build/FileDownLoadApp-project-headers.hmap -F/Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/Debug-iphoneos -iquote/Users/aaronksaunders/Documents/PhoneGapLib/Classes -I/Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/Debug-iphoneos/include -I/Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/FileDownLoadApp-iPad.build/Debug-iphoneos/FileDownLoadApp.build/DerivedSources/armv7 -I/Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/FileDownLoadApp-iPad.build/Debug-iphoneos/FileDownLoadApp.build/DerivedSources -include /var/folders/Jn/Jn3JLzodGeurwoJZYN1BW++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FileDownLoadApp_Prefix-egnjrgktzikcmtdynvyxsfhwzywb/FileDownLoadApp_Prefix.pch -c /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/main.m -o /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/FileDownLoadApp-iPad.build/Debug-iphoneos/FileDownLoadApp.build/Objects-normal/armv7/main.o0#
+
+CCopyPNGFile /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/Debug-iphoneos/FileDownLoadApp.app/Default-Landscape.png Default-Landscape.png
+s318644411.688671
+e318644411.836791
+r1
+xCopyPNGFile
+x/Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/Debug-iphoneos/FileDownLoadApp.app/Default-Landscape.png
+xDefault-Landscape.png
+lSLF07#2@96"CopyPNGFile build/Debug-iphoneos/FileDownLoadApp.app/Default-Landscape.png Default-Landscape.png318644411#318644411#0(0"0(0#0#79"/Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/Default-Landscape.png8599683488#709"    cd /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/Default-Landscape.png /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/Debug-iphoneos/FileDownLoadApp.app/Default-Landscape.png0#
+
+CCopyPNGFile /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/Debug-iphoneos/FileDownLoadApp.app/Default-Portrait.png Default-Portrait.png
+s318644411.703200
+e318644411.872262
+r1
+xCopyPNGFile
+x/Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/Debug-iphoneos/FileDownLoadApp.app/Default-Portrait.png
+xDefault-Portrait.png
+lSLF07#2@94"CopyPNGFile build/Debug-iphoneos/FileDownLoadApp.app/Default-Portrait.png Default-Portrait.png318644411#318644411#0(0"0(0#0#78"/Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/Default-Portrait.png8611495616#707"    cd /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/Default-Portrait.png /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/Debug-iphoneos/FileDownLoadApp.app/Default-Portrait.png0#
+
+CCopyPNGFile /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/Debug-iphoneos/FileDownLoadApp.app/Default.png Default.png
+s318644411.612073
+e318644411.728492
+r1
+xCopyPNGFile
+x/Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/Debug-iphoneos/FileDownLoadApp.app/Default.png
+xDefault.png
+lSLF07#2@76"CopyPNGFile build/Debug-iphoneos/FileDownLoadApp.app/Default.png Default.png318644411#318644411#0(0"0(0#0#69"/Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/Default.png8610298592#689"    cd /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/Default.png /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/Debug-iphoneos/FileDownLoadApp.app/Default.png0#
+
+CCopyPNGFile /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/Debug-iphoneos/FileDownLoadApp.app/icon-72.png icon-72.png
+s318644411.679360
+e318644411.710131
+r1
+xCopyPNGFile
+x/Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/Debug-iphoneos/FileDownLoadApp.app/icon-72.png
+xicon-72.png
+lSLF07#2@76"CopyPNGFile build/Debug-iphoneos/FileDownLoadApp.app/icon-72.png icon-72.png318644411#318644411#0(0"0(0#0#69"/Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/icon-72.png8603512928#689"    cd /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/icon-72.png /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/Debug-iphoneos/FileDownLoadApp.app/icon-72.png0#
+
+CCopyPNGFile /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/Debug-iphoneos/FileDownLoadApp.app/icon.png icon.png
+s318644411.612594
+e318644411.703124
+r1
+xCopyPNGFile
+x/Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/Debug-iphoneos/FileDownLoadApp.app/icon.png
+xicon.png
+lSLF07#2@70"CopyPNGFile build/Debug-iphoneos/FileDownLoadApp.app/icon.png icon.png318644411#318644411#0(0"0(0#0#66"/Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/icon.png8605481760#683"    cd /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/icon.png /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/Debug-iphoneos/FileDownLoadApp.app/icon.png0#
+
+CCopyPlistFile /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/Debug-iphoneos/FileDownLoadApp.app/PhoneGap.plist PhoneGap.plist
+s318644411.649649
+e318644411.688596
+r1
+xCopyPlistFile
+x/Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/Debug-iphoneos/FileDownLoadApp.app/PhoneGap.plist
+xPhoneGap.plist
+lSLF07#2@19"Copy PhoneGap.plist318644411#318644411#0(0"0(0#0#72"/Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/PhoneGap.plist8604176928#483"    cd /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist --convert binary1 PhoneGap.plist --outdir /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/Debug-iphoneos/FileDownLoadApp.app0#
+
+CCpResource build/Debug-iphoneos/FileDownLoadApp.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+s318644411.526231
+e318644411.556068
+r1
+xCpResource
+xbuild/Debug-iphoneos/FileDownLoadApp.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist318644411#318644411#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist8611573632#602"    cd /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/Debug-iphoneos/FileDownLoadApp.app0#
+
+CCpResource build/Debug-iphoneos/FileDownLoadApp.app/VERSION /Users/aaronksaunders/Documents/PhoneGapLib/VERSION
+s318644411.611568
+e318644411.649580
+r1
+xCpResource
+xbuild/Debug-iphoneos/FileDownLoadApp.app/VERSION
+x/Users/aaronksaunders/Documents/PhoneGapLib/VERSION
+lSLF07#2@56"Copy /Users/aaronksaunders/Documents/PhoneGapLib/VERSION318644411#318644411#0(0"0(0#0#51"/Users/aaronksaunders/Documents/PhoneGapLib/VERSION8610967968#564"    cd /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/aaronksaunders/Documents/PhoneGapLib/VERSION /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/Debug-iphoneos/FileDownLoadApp.app0#
+
+CCpResource build/Debug-iphoneos/FileDownLoadApp.app/www www
+s318644437.771218
+e318644437.775611
+r1
+xCpResource
+xbuild/Debug-iphoneos/FileDownLoadApp.app/www
+xwww
+lSLF07#2@8"Copy www318644437#318644437#0(0"0(0#0#61"/Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/www8609599168#574"    cd /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/www /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/Debug-iphoneos/FileDownLoadApp.app0#
+
+CGenerateDSYMFile /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/Debug-iphoneos/FileDownLoadApp.app.dSYM /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/Debug-iphoneos/FileDownLoadApp.app/FileDownLoadApp
+s318644438.312775
+e318644438.410231
+r1
+xGenerateDSYMFile
+x/Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/Debug-iphoneos/FileDownLoadApp.app.dSYM
+x/Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/Debug-iphoneos/FileDownLoadApp.app/FileDownLoadApp
+lSLF07#2@119"GenerateDSYMFile build/Debug-iphoneos/FileDownLoadApp.app.dSYM build/Debug-iphoneos/FileDownLoadApp.app/FileDownLoadApp318644438#318644438#0(0"0(0#0#114"/Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/Debug-iphoneos/FileDownLoadApp.app/FileDownLoadApp8614140608#505"    cd /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/dsymutil /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/Debug-iphoneos/FileDownLoadApp.app/FileDownLoadApp -o /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/Debug-iphoneos/FileDownLoadApp.app.dSYM0#
+
+CLd /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/Debug-iphoneos/FileDownLoadApp.app/FileDownLoadApp normal armv7
+s318644437.775912
+e318644438.312678
+r1
+xLd
+x/Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/Debug-iphoneos/FileDownLoadApp.app/FileDownLoadApp
+xnormal
+xarmv7
+lSLF07#2@119"Link /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/Debug-iphoneos/FileDownLoadApp.app/FileDownLoadApp318644437#318644438#0(0"0(0#0#0"8611917632#1370"    cd /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp    setenv IPHONEOS_DEPLOYMENT_TARGET 3.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/Debug-iphoneos -F/Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/Debug-iphoneos -filelist /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/FileDownLoadApp-iPad.build/Debug-iphoneos/FileDownLoadApp.build/Objects-normal/armv7/FileDownLoadApp.LinkFileList -dead_strip -all_load -Obj-C -miphoneos-version-min=3.0 /Users/aaronksaunders/Documents/PhoneGapLib/build/Debug-iphoneos/libPhoneGapLib.a -framework Foundation -framework UIKit -framework CoreGraphics -framework AddressBook -framework AddressBookUI -framework AudioToolbox -framework AVFoundation -framework CFNetwork -framework CoreLocation -framework MediaPlayer -framework QuartzCore -framework SystemConfiguration -framework MobileCoreServices -o /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/Debug-iphoneos/FileDownLoadApp.app/FileDownLoadApp0#
+
+CPhaseScriptExecution "Copy PhoneGap Javascript" /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/FileDownLoadApp-iPad.build/Debug-iphoneos/FileDownLoadApp.build/Script-30E9A9A110B758320022D3BA.sh
+s318644437.738554
+e318644437.760717
+r1
+xPhaseScriptExecution
+xCopy PhoneGap Javascript
+x/Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/FileDownLoadApp-iPad.build/Debug-iphoneos/FileDownLoadApp.build/Script-30E9A9A110B758320022D3BA.sh
+omake: Nothing to be done for `all'.
+ocp /Users/aaronksaunders/Documents/PhoneGapLib/javascripts/phonegap.js /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/www/phonegap.js
+lSLF07#2@50"Run custom shell script 'Copy PhoneGap Javascript'318644437#318644437#0(181"make: Nothing to be done for `all'.cp /Users/aaronksaunders/Documents/PhoneGapLib/javascripts/phonegap.js /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/www/phonegap.js2(13@36"make: Nothing to be done for `all'.318644437#0#36#0(1@0"0(13@145"cp /Users/aaronksaunders/Documents/PhoneGapLib/javascripts/phonegap.js /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/www/phonegap.js318644437#36#145#0(1@0"0(0#0#0"8611683040#19144"    cd /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp    setenv ACTION build    setenv AD_HOC_CODE_SIGNING_ALLOWED NO    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER aaronksaunders    setenv ALWAYS_SEARCH_USER_PATHS NO    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS armv7    setenv ARCHS_STANDARD_32_64_BIT "armv6 armv7"    setenv ARCHS_STANDARD_32_BIT "armv6 armv7"    setenv ARCHS_UNIVERSAL_IPHONE_OS armv7    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build    setenv BUILD_ROOT /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build    setenv BUILD_STYLE Debug    setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/Debug-iphoneos    setenv CACHE_ROOT /var/folders/Jn/Jn3JLzodGeurwoJZYN1BW++++TI/-Caches-/com.apple.Xcode.501    setenv CCHROOT /var/folders/Jn/Jn3JLzodGeurwoJZYN1BW++++TI/-Caches-/com.apple.Xcode.501    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLASS_FILE_DIR /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/FileDownLoadApp-iPad.build/Debug-iphoneos/FileDownLoadApp.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/Debug-iphoneos/FileDownLoadApp.app    setenv CODE_SIGNING_ALLOWED YES    setenv CODE_SIGNING_REQUIRED YES    setenv CODE_SIGN_CONTEXT_CLASS XCiPhoneOSCodeSignContext    setenv CODE_SIGN_IDENTITY "iPhone Developer"    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/Jn/Jn3JLzodGeurwoJZYN1BW++++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs    setenv COMPRESS_PNG_FILES YES    setenv CONFIGURATION Debug    setenv CONFIGURATION_BUILD_DIR /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/Debug-iphoneos    setenv CONFIGURATION_TEMP_DIR /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/FileDownLoadApp-iPad.build/Debug-iphoneos    setenv CONTENTS_FOLDER_PATH FileDownLoadApp.app    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP NO    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CP /bin/cp    setenv CURRENT_ARCH armv7    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING YES    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf-with-dsym    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/FileDownLoadApp-iPad.build/Debug-iphoneos/FileDownLoadApp.build/DerivedSources    setenv DERIVED_FILE_DIR /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/FileDownLoadApp-iPad.build/Debug-iphoneos/FileDownLoadApp.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/FileDownLoadApp-iPad.build/Debug-iphoneos/FileDownLoadApp.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Developer/Applications    setenv DEVELOPER_BIN_DIR /Developer/usr/bin    setenv DEVELOPER_DIR /Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Developer/Library    setenv DEVELOPER_SDK_DIR /Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Developer/Tools    setenv DEVELOPER_USR_DIR /Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH FileDownLoadApp.app/English.lproj/Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/FileDownLoadApp-iPad.dst    setenv DWARF_DSYM_FILE_NAME FileDownLoadApp.app.dSYM    setenv DWARF_DSYM_FOLDER_PATH /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/Debug-iphoneos    setenv EFFECTIVE_PLATFORM_NAME -iphoneos    setenv EMBEDDED_PROFILE_NAME embedded.mobileprovision    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv ENABLE_OPENMP_SUPPORT NO    setenv ENTITLEMENTS_ALLOWED YES    setenv ENTITLEMENTS_REQUIRED YES    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".svn .git CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) CVS .svn .git *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH FileDownLoadApp.app/Executables    setenv EXECUTABLE_FOLDER_PATH FileDownLoadApp.app    setenv EXECUTABLE_NAME FileDownLoadApp    setenv EXECUTABLE_PATH FileDownLoadApp.app/FileDownLoadApp    setenv FILE_LIST /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/FileDownLoadApp-iPad.build/Debug-iphoneos/FileDownLoadApp.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/FileDownLoadApp-iPad.build/Debug-iphoneos/FileDownLoadApp.build/FixedFiles    setenv FRAMEWORKS_FOLDER_PATH FileDownLoadApp.app/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "\"/Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/Debug-iphoneos\" "    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME FileDownLoadApp.app    setenv GCC3_VERSION 3.3    setenv GCC_C_LANGUAGE_STANDARD c99    setenv GCC_DYNAMIC_NO_PIC NO    setenv GCC_INLINES_ARE_PRIVATE_EXTERN YES    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRECOMPILE_PREFIX_HEADER YES    setenv GCC_PREFIX_HEADER FileDownLoadApp_Prefix.pch    setenv GCC_SYMBOLS_PRIVATE_EXTERN YES    setenv GCC_THUMB_SUPPORT YES    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION 4.2    setenv GCC_VERSION_IDENTIFIER __2    setenv GCC_WARN_ABOUT_RETURN_TYPE YES    setenv GCC_WARN_UNUSED_VARIABLE YES    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE YES    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "\"/Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/Debug-iphoneos/include\" "    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE FileDownLoadApp-Info.plist    setenv INFOPLIST_OUTPUT_FORMAT binary    setenv INFOPLIST_PATH FileDownLoadApp.app/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH FileDownLoadApp.app/English.lproj/InfoPlist.strings    setenv INSTALL_DIR /tmp/FileDownLoadApp-iPad.dst/Users/aaronksaunders/Applications    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER aaronksaunders    setenv INSTALL_PATH /Users/aaronksaunders/Applications    setenv INSTALL_ROOT /tmp/FileDownLoadApp-iPad.dst    setenv IPHONEOS_DEPLOYMENT_TARGET 3.0    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH FileDownLoadApp.app/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/FileDownLoadApp-iPad.build/Debug-iphoneos/FileDownLoadApp.build/FileDownLoadApp-LinkMap-normal-armv7.txt    setenv LD_OPENMP_FLAGS -fopenmp    setenv LEX /Developer/usr/bin/lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/Debug-iphoneos\" "    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_armv7 /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/FileDownLoadApp-iPad.build/Debug-iphoneos/FileDownLoadApp.build/Objects-normal/armv7/FileDownLoadApp.LinkFileList    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCALIZED_RESOURCES_FOLDER_PATH FileDownLoadApp.app/English.lproj    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_execute    setenv MAC_OS_X_VERSION_ACTUAL 1066    setenv MAC_OS_X_VERSION_MAJOR 1060    setenv MAC_OS_X_VERSION_MINOR 0606    setenv NATIVE_ARCH armv6    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJECT_FILE_DIR /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/FileDownLoadApp-iPad.build/Debug-iphoneos/FileDownLoadApp.build/Objects    setenv OBJECT_FILE_DIR_normal /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/FileDownLoadApp-iPad.build/Debug-iphoneos/FileDownLoadApp.build/Objects-normal    setenv OBJROOT /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build    setenv ONLY_ACTIVE_ARCH NO    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv OTHER_LDFLAGS "-all_load -Obj-C"    setenv PACKAGE_TYPE com.apple.package-type.wrapper.application    setenv PASCAL_STRINGS YES    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Developer/Headers /Developer/SDKs /Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH FileDownLoadApp.app/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS objective-c    setenv PHONEGAPLIB /Users/aaronksaunders/Documents/PhoneGapLib    setenv PKGINFO_FILE_PATH /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/FileDownLoadApp-iPad.build/Debug-iphoneos/FileDownLoadApp.build/PkgInfo    setenv PKGINFO_PATH FileDownLoadApp.app/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Developer/Platforms/iPhoneOS.platform/Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Developer/Platforms/iPhoneOS.platform/Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Developer/Platforms/iPhoneOS.platform/Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Developer/Platforms/iPhoneOS.platform/Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Developer/Platforms/iPhoneOS.platform/Developer/usr    setenv PLATFORM_DIR /Developer/Platforms/iPhoneOS.platform    setenv PLATFORM_NAME iphoneos    setenv PLATFORM_PRODUCT_BUILD_VERSION 8C134    setenv PLIST_FILE_OUTPUT_FORMAT binary    setenv PLUGINS_FOLDER_PATH FileDownLoadApp.app/PlugIns    setenv PREBINDING NO    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/FileDownLoadApp-iPad.build/Debug-iphoneos/FileDownLoadApp.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH FileDownLoadApp.app/PrivateHeaders    setenv PRODUCT_NAME FileDownLoadApp    setenv PRODUCT_SETTINGS_PATH /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/FileDownLoadApp-Info.plist    setenv PRODUCT_TYPE com.apple.product-type.application    setenv PROFILING_CODE NO    setenv PROJECT FileDownLoadApp-iPad    setenv PROJECT_DERIVED_FILE_DIR /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/FileDownLoadApp-iPad.build/DerivedSources    setenv PROJECT_DIR /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp    setenv PROJECT_FILE_PATH /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/FileDownLoadApp-iPad.xcodeproj    setenv PROJECT_NAME FileDownLoadApp-iPad    setenv PROJECT_TEMP_DIR /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/FileDownLoadApp-iPad.build    setenv PROVISIONING_PROFILE_REQUIRED YES    setenv PUBLIC_HEADERS_FOLDER_PATH FileDownLoadApp.app/Headers    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_GIT_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv RESOURCE_RULES_REQUIRED YES    setenv REZ_COLLECTOR_DIR /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/FileDownLoadApp-iPad.build/Debug-iphoneos/FileDownLoadApp.build/ResourceManagerResources    setenv REZ_OBJECTS_DIR /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/FileDownLoadApp-iPad.build/Debug-iphoneos/FileDownLoadApp.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "\"/Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/Debug-iphoneos\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH FileDownLoadApp.app/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk    setenv SDK_DIR /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk    setenv SDK_NAME iphoneos4.2    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHALLOW_BUNDLE YES    setenv SHARED_DERIVED_FILE_DIR /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/Debug-iphoneos/DerivedSources    setenv SHARED_FRAMEWORKS_FOLDER_PATH FileDownLoadApp.app/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /var/folders/Jn/Jn3JLzodGeurwoJZYN1BW++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH FileDownLoadApp.app/SharedSupport    setenv SKIP_INSTALL YES    setenv SOURCE_ROOT /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp    setenv SRCROOT /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp    setenv STANDARD_C_PLUS_PLUS_LIBRARY_TYPE dynamic    setenv STRINGS_FILE_OUTPUT_ENCODING binary    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE all    setenv SUPPORTED_DEVICE_FAMILIES 1,2    setenv SYMBOL_REPOSITORY_DIR /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/FileDownLoadApp-iPad.build/Debug-iphoneos/FileDownLoadApp.build/SymbolRepositories    setenv SYMROOT /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETED_DEVICE_FAMILY 1,2    setenv TARGETNAME FileDownLoadApp    setenv TARGET_BUILD_DIR /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/Debug-iphoneos    setenv TARGET_NAME FileDownLoadApp    setenv TARGET_TEMP_DIR /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/FileDownLoadApp-iPad.build/Debug-iphoneos/FileDownLoadApp.build    setenv TEMP_DIR /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/FileDownLoadApp-iPad.build/Debug-iphoneos/FileDownLoadApp.build    setenv TEMP_FILES_DIR /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/FileDownLoadApp-iPad.build/Debug-iphoneos/FileDownLoadApp.build    setenv TEMP_FILE_DIR /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/FileDownLoadApp-iPad.build/Debug-iphoneos/FileDownLoadApp.build    setenv TEMP_ROOT /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build    setenv UID 501    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH FileDownLoadApp.app    setenv UNSTRIPPED_PRODUCT NO    setenv USER aaronksaunders    setenv USER_APPS_DIR /Users/aaronksaunders/Applications    setenv USER_HEADER_SEARCH_PATHS /Users/aaronksaunders/Documents/PhoneGapLib/Classes    setenv USER_LIBRARY_DIR /Users/aaronksaunders/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS "armv6 armv7"    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH FileDownLoadApp.app/version.plist    setenv VERSION_INFO_BUILDER aaronksaunders    setenv VERSION_INFO_FILE FileDownLoadApp_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:FileDownLoadApp  PROJECT:FileDownLoadApp-iPad-\""    setenv WRAPPER_EXTENSION app    setenv WRAPPER_NAME FileDownLoadApp.app    setenv WRAPPER_SUFFIX .app    setenv XCODE_APP_SUPPORT_DIR /Developer/Library/Xcode    setenv XCODE_PRODUCT_BUILD_VERSION 10M2423    setenv XCODE_VERSION_ACTUAL 0325    setenv XCODE_VERSION_MAJOR 0300    setenv XCODE_VERSION_MINOR 0320    setenv YACC /Developer/usr/bin/yacc    setenv _REAL_SDKROOT iphoneos    /bin/sh -c /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/FileDownLoadApp-iPad.build/Debug-iphoneos/FileDownLoadApp.build/Script-30E9A9A110B758320022D3BA.sh0#
+
+CPhaseScriptExecution "Touch www folder" /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/FileDownLoadApp-iPad.build/Debug-iphoneos/FileDownLoadApp.build/Script-304B58A110DAC018002A0835.sh
+s318644437.760783
+e318644437.771163
+r1
+xPhaseScriptExecution
+xTouch www folder
+x/Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/FileDownLoadApp-iPad.build/Debug-iphoneos/FileDownLoadApp.build/Script-304B58A110DAC018002A0835.sh
+lSLF07#2@42"Run custom shell script 'Touch www folder'318644437#318644437#0(0"0(0#0#0"8610958880#19144"    cd /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp    setenv ACTION build    setenv AD_HOC_CODE_SIGNING_ALLOWED NO    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER aaronksaunders    setenv ALWAYS_SEARCH_USER_PATHS NO    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS armv7    setenv ARCHS_STANDARD_32_64_BIT "armv6 armv7"    setenv ARCHS_STANDARD_32_BIT "armv6 armv7"    setenv ARCHS_UNIVERSAL_IPHONE_OS armv7    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build    setenv BUILD_ROOT /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build    setenv BUILD_STYLE Debug    setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/Debug-iphoneos    setenv CACHE_ROOT /var/folders/Jn/Jn3JLzodGeurwoJZYN1BW++++TI/-Caches-/com.apple.Xcode.501    setenv CCHROOT /var/folders/Jn/Jn3JLzodGeurwoJZYN1BW++++TI/-Caches-/com.apple.Xcode.501    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLASS_FILE_DIR /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/FileDownLoadApp-iPad.build/Debug-iphoneos/FileDownLoadApp.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/Debug-iphoneos/FileDownLoadApp.app    setenv CODE_SIGNING_ALLOWED YES    setenv CODE_SIGNING_REQUIRED YES    setenv CODE_SIGN_CONTEXT_CLASS XCiPhoneOSCodeSignContext    setenv CODE_SIGN_IDENTITY "iPhone Developer"    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/Jn/Jn3JLzodGeurwoJZYN1BW++++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs    setenv COMPRESS_PNG_FILES YES    setenv CONFIGURATION Debug    setenv CONFIGURATION_BUILD_DIR /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/Debug-iphoneos    setenv CONFIGURATION_TEMP_DIR /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/FileDownLoadApp-iPad.build/Debug-iphoneos    setenv CONTENTS_FOLDER_PATH FileDownLoadApp.app    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP NO    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CP /bin/cp    setenv CURRENT_ARCH armv7    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING YES    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf-with-dsym    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/FileDownLoadApp-iPad.build/Debug-iphoneos/FileDownLoadApp.build/DerivedSources    setenv DERIVED_FILE_DIR /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/FileDownLoadApp-iPad.build/Debug-iphoneos/FileDownLoadApp.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/FileDownLoadApp-iPad.build/Debug-iphoneos/FileDownLoadApp.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Developer/Applications    setenv DEVELOPER_BIN_DIR /Developer/usr/bin    setenv DEVELOPER_DIR /Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Developer/Library    setenv DEVELOPER_SDK_DIR /Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Developer/Tools    setenv DEVELOPER_USR_DIR /Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH FileDownLoadApp.app/English.lproj/Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/FileDownLoadApp-iPad.dst    setenv DWARF_DSYM_FILE_NAME FileDownLoadApp.app.dSYM    setenv DWARF_DSYM_FOLDER_PATH /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/Debug-iphoneos    setenv EFFECTIVE_PLATFORM_NAME -iphoneos    setenv EMBEDDED_PROFILE_NAME embedded.mobileprovision    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv ENABLE_OPENMP_SUPPORT NO    setenv ENTITLEMENTS_ALLOWED YES    setenv ENTITLEMENTS_REQUIRED YES    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".svn .git CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) CVS .svn .git *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH FileDownLoadApp.app/Executables    setenv EXECUTABLE_FOLDER_PATH FileDownLoadApp.app    setenv EXECUTABLE_NAME FileDownLoadApp    setenv EXECUTABLE_PATH FileDownLoadApp.app/FileDownLoadApp    setenv FILE_LIST /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/FileDownLoadApp-iPad.build/Debug-iphoneos/FileDownLoadApp.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/FileDownLoadApp-iPad.build/Debug-iphoneos/FileDownLoadApp.build/FixedFiles    setenv FRAMEWORKS_FOLDER_PATH FileDownLoadApp.app/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "\"/Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/Debug-iphoneos\" "    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME FileDownLoadApp.app    setenv GCC3_VERSION 3.3    setenv GCC_C_LANGUAGE_STANDARD c99    setenv GCC_DYNAMIC_NO_PIC NO    setenv GCC_INLINES_ARE_PRIVATE_EXTERN YES    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRECOMPILE_PREFIX_HEADER YES    setenv GCC_PREFIX_HEADER FileDownLoadApp_Prefix.pch    setenv GCC_SYMBOLS_PRIVATE_EXTERN YES    setenv GCC_THUMB_SUPPORT YES    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION 4.2    setenv GCC_VERSION_IDENTIFIER __2    setenv GCC_WARN_ABOUT_RETURN_TYPE YES    setenv GCC_WARN_UNUSED_VARIABLE YES    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE YES    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "\"/Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/Debug-iphoneos/include\" "    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE FileDownLoadApp-Info.plist    setenv INFOPLIST_OUTPUT_FORMAT binary    setenv INFOPLIST_PATH FileDownLoadApp.app/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH FileDownLoadApp.app/English.lproj/InfoPlist.strings    setenv INSTALL_DIR /tmp/FileDownLoadApp-iPad.dst/Users/aaronksaunders/Applications    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER aaronksaunders    setenv INSTALL_PATH /Users/aaronksaunders/Applications    setenv INSTALL_ROOT /tmp/FileDownLoadApp-iPad.dst    setenv IPHONEOS_DEPLOYMENT_TARGET 3.0    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH FileDownLoadApp.app/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/FileDownLoadApp-iPad.build/Debug-iphoneos/FileDownLoadApp.build/FileDownLoadApp-LinkMap-normal-armv7.txt    setenv LD_OPENMP_FLAGS -fopenmp    setenv LEX /Developer/usr/bin/lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/Debug-iphoneos\" "    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_armv7 /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/FileDownLoadApp-iPad.build/Debug-iphoneos/FileDownLoadApp.build/Objects-normal/armv7/FileDownLoadApp.LinkFileList    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCALIZED_RESOURCES_FOLDER_PATH FileDownLoadApp.app/English.lproj    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_execute    setenv MAC_OS_X_VERSION_ACTUAL 1066    setenv MAC_OS_X_VERSION_MAJOR 1060    setenv MAC_OS_X_VERSION_MINOR 0606    setenv NATIVE_ARCH armv6    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJECT_FILE_DIR /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/FileDownLoadApp-iPad.build/Debug-iphoneos/FileDownLoadApp.build/Objects    setenv OBJECT_FILE_DIR_normal /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/FileDownLoadApp-iPad.build/Debug-iphoneos/FileDownLoadApp.build/Objects-normal    setenv OBJROOT /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build    setenv ONLY_ACTIVE_ARCH NO    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv OTHER_LDFLAGS "-all_load -Obj-C"    setenv PACKAGE_TYPE com.apple.package-type.wrapper.application    setenv PASCAL_STRINGS YES    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Developer/Headers /Developer/SDKs /Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH FileDownLoadApp.app/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS objective-c    setenv PHONEGAPLIB /Users/aaronksaunders/Documents/PhoneGapLib    setenv PKGINFO_FILE_PATH /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/FileDownLoadApp-iPad.build/Debug-iphoneos/FileDownLoadApp.build/PkgInfo    setenv PKGINFO_PATH FileDownLoadApp.app/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Developer/Platforms/iPhoneOS.platform/Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Developer/Platforms/iPhoneOS.platform/Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Developer/Platforms/iPhoneOS.platform/Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Developer/Platforms/iPhoneOS.platform/Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Developer/Platforms/iPhoneOS.platform/Developer/usr    setenv PLATFORM_DIR /Developer/Platforms/iPhoneOS.platform    setenv PLATFORM_NAME iphoneos    setenv PLATFORM_PRODUCT_BUILD_VERSION 8C134    setenv PLIST_FILE_OUTPUT_FORMAT binary    setenv PLUGINS_FOLDER_PATH FileDownLoadApp.app/PlugIns    setenv PREBINDING NO    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/FileDownLoadApp-iPad.build/Debug-iphoneos/FileDownLoadApp.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH FileDownLoadApp.app/PrivateHeaders    setenv PRODUCT_NAME FileDownLoadApp    setenv PRODUCT_SETTINGS_PATH /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/FileDownLoadApp-Info.plist    setenv PRODUCT_TYPE com.apple.product-type.application    setenv PROFILING_CODE NO    setenv PROJECT FileDownLoadApp-iPad    setenv PROJECT_DERIVED_FILE_DIR /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/FileDownLoadApp-iPad.build/DerivedSources    setenv PROJECT_DIR /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp    setenv PROJECT_FILE_PATH /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/FileDownLoadApp-iPad.xcodeproj    setenv PROJECT_NAME FileDownLoadApp-iPad    setenv PROJECT_TEMP_DIR /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/FileDownLoadApp-iPad.build    setenv PROVISIONING_PROFILE_REQUIRED YES    setenv PUBLIC_HEADERS_FOLDER_PATH FileDownLoadApp.app/Headers    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_GIT_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv RESOURCE_RULES_REQUIRED YES    setenv REZ_COLLECTOR_DIR /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/FileDownLoadApp-iPad.build/Debug-iphoneos/FileDownLoadApp.build/ResourceManagerResources    setenv REZ_OBJECTS_DIR /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/FileDownLoadApp-iPad.build/Debug-iphoneos/FileDownLoadApp.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "\"/Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/Debug-iphoneos\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH FileDownLoadApp.app/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk    setenv SDK_DIR /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk    setenv SDK_NAME iphoneos4.2    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHALLOW_BUNDLE YES    setenv SHARED_DERIVED_FILE_DIR /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/Debug-iphoneos/DerivedSources    setenv SHARED_FRAMEWORKS_FOLDER_PATH FileDownLoadApp.app/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /var/folders/Jn/Jn3JLzodGeurwoJZYN1BW++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH FileDownLoadApp.app/SharedSupport    setenv SKIP_INSTALL YES    setenv SOURCE_ROOT /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp    setenv SRCROOT /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp    setenv STANDARD_C_PLUS_PLUS_LIBRARY_TYPE dynamic    setenv STRINGS_FILE_OUTPUT_ENCODING binary    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE all    setenv SUPPORTED_DEVICE_FAMILIES 1,2    setenv SYMBOL_REPOSITORY_DIR /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/FileDownLoadApp-iPad.build/Debug-iphoneos/FileDownLoadApp.build/SymbolRepositories    setenv SYMROOT /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETED_DEVICE_FAMILY 1,2    setenv TARGETNAME FileDownLoadApp    setenv TARGET_BUILD_DIR /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/Debug-iphoneos    setenv TARGET_NAME FileDownLoadApp    setenv TARGET_TEMP_DIR /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/FileDownLoadApp-iPad.build/Debug-iphoneos/FileDownLoadApp.build    setenv TEMP_DIR /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/FileDownLoadApp-iPad.build/Debug-iphoneos/FileDownLoadApp.build    setenv TEMP_FILES_DIR /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/FileDownLoadApp-iPad.build/Debug-iphoneos/FileDownLoadApp.build    setenv TEMP_FILE_DIR /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/FileDownLoadApp-iPad.build/Debug-iphoneos/FileDownLoadApp.build    setenv TEMP_ROOT /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build    setenv UID 501    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH FileDownLoadApp.app    setenv UNSTRIPPED_PRODUCT NO    setenv USER aaronksaunders    setenv USER_APPS_DIR /Users/aaronksaunders/Applications    setenv USER_HEADER_SEARCH_PATHS /Users/aaronksaunders/Documents/PhoneGapLib/Classes    setenv USER_LIBRARY_DIR /Users/aaronksaunders/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS "armv6 armv7"    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH FileDownLoadApp.app/version.plist    setenv VERSION_INFO_BUILDER aaronksaunders    setenv VERSION_INFO_FILE FileDownLoadApp_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:FileDownLoadApp  PROJECT:FileDownLoadApp-iPad-\""    setenv WRAPPER_EXTENSION app    setenv WRAPPER_NAME FileDownLoadApp.app    setenv WRAPPER_SUFFIX .app    setenv XCODE_APP_SUPPORT_DIR /Developer/Library/Xcode    setenv XCODE_PRODUCT_BUILD_VERSION 10M2423    setenv XCODE_VERSION_ACTUAL 0325    setenv XCODE_VERSION_MAJOR 0300    setenv XCODE_VERSION_MINOR 0320    setenv YACC /Developer/usr/bin/yacc    setenv _REAL_SDKROOT iphoneos    /bin/sh -c /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/FileDownLoadApp-iPad.build/Debug-iphoneos/FileDownLoadApp.build/Script-304B58A110DAC018002A0835.sh0#
+
+CProcessInfoPlistFile /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/Debug-iphoneos/FileDownLoadApp.app/Info.plist FileDownLoadApp-Info.plist
+s318644411.526912
+e318644411.548293
+r1
+xProcessInfoPlistFile
+x/Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/Debug-iphoneos/FileDownLoadApp.app/Info.plist
+xFileDownLoadApp-Info.plist
+lSLF07#2@34"Process FileDownLoadApp-Info.plist318644411#318644411#0(0"0(0#0#84"/Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/FileDownLoadApp-Info.plist8611255808#732"    cd /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-infoPlistUtility FileDownLoadApp-Info.plist -genpkginfo /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/Debug-iphoneos/FileDownLoadApp.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/Debug-iphoneos/FileDownLoadApp.app/ResourceRules.plist -o /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/Debug-iphoneos/FileDownLoadApp.app/Info.plist0#
+
+CProcessPCH /var/folders/Jn/Jn3JLzodGeurwoJZYN1BW++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FileDownLoadApp_Prefix-egnjrgktzikcmtdynvyxsfhwzywb/FileDownLoadApp_Prefix.pch.gch FileDownLoadApp_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s318644411.872342
+e318644412.301884
+r1
+xProcessPCH
+x/var/folders/Jn/Jn3JLzodGeurwoJZYN1BW++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FileDownLoadApp_Prefix-egnjrgktzikcmtdynvyxsfhwzywb/FileDownLoadApp_Prefix.pch.gch
+xFileDownLoadApp_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@37"Precompile FileDownLoadApp_Prefix.pch318644411#318644412#0(0"0(0#0#84"/Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/FileDownLoadApp_Prefix.pch8610093824#2115"    cd /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/FileDownLoadApp-iPad.build/Debug-iphoneos/FileDownLoadApp.build/FileDownLoadApp-generated-files.hmap -I/Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/FileDownLoadApp-iPad.build/Debug-iphoneos/FileDownLoadApp.build/FileDownLoadApp-own-target-headers.hmap -I/Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/FileDownLoadApp-iPad.build/Debug-iphoneos/FileDownLoadApp.build/FileDownLoadApp-all-target-headers.hmap -iquote /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/FileDownLoadApp-iPad.build/Debug-iphoneos/FileDownLoadApp.build/FileDownLoadApp-project-headers.hmap -F/Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/Debug-iphoneos -iquote/Users/aaronksaunders/Documents/PhoneGapLib/Classes -I/Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/Debug-iphoneos/include -I/Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/FileDownLoadApp-iPad.build/Debug-iphoneos/FileDownLoadApp.build/DerivedSources/armv7 -I/Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/FileDownLoadApp-iPad.build/Debug-iphoneos/FileDownLoadApp.build/DerivedSources -c /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/FileDownLoadApp_Prefix.pch -o /var/folders/Jn/Jn3JLzodGeurwoJZYN1BW++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FileDownLoadApp_Prefix-egnjrgktzikcmtdynvyxsfhwzywb/FileDownLoadApp_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/aaronksaunders/Library/MobileDevice/Provisioning Profiles/CE3DBE55-6459-4FCC-8B85-3FD2765C0E40.mobileprovision" /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/Debug-iphoneos/FileDownLoadApp.app/embedded.mobileprovision
+s318644412.394703
+e318644412.395820
+r1
+xProcessProductPackaging
+x/Users/aaronksaunders/Library/MobileDevice/Provisioning Profiles/CE3DBE55-6459-4FCC-8B85-3FD2765C0E40.mobileprovision
+x/Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/Debug-iphoneos/FileDownLoadApp.app/embedded.mobileprovision
+lSLF07#2@209"ProcessProductPackaging "/Users/aaronksaunders/Library/MobileDevice/Provisioning Profiles/CE3DBE55-6459-4FCC-8B85-3FD2765C0E40.mobileprovision" build/Debug-iphoneos/FileDownLoadApp.app/embedded.mobileprovision318644412#318644412#0(0"0(0#0#123"/Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/Debug-iphoneos/FileDownLoadApp.app/embedded.mobileprovision8603396896#540"    cd /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    <com.apple.tools.product-pkg-utility> "/Users/aaronksaunders/Library/MobileDevice/Provisioning Profiles/CE3DBE55-6459-4FCC-8B85-3FD2765C0E40.mobileprovision" -o /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/Debug-iphoneos/FileDownLoadApp.app/embedded.mobileprovision0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/FileDownLoadApp-iPad.build/Debug-iphoneos/FileDownLoadApp.build/FileDownLoadApp.xcent
+s318644412.395872
+e318644412.397216
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+x/Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/FileDownLoadApp-iPad.build/Debug-iphoneos/FileDownLoadApp.build/FileDownLoadApp.xcent
+lSLF07#2@204"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist build/FileDownLoadApp-iPad.build/Debug-iphoneos/FileDownLoadApp.build/FileDownLoadApp.xcent318644412#318644412#0(0"0(0#0#149"/Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/FileDownLoadApp-iPad.build/Debug-iphoneos/FileDownLoadApp.build/FileDownLoadApp.xcent8609624064#561"    cd /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist -entitlements -format xml -o /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/FileDownLoadApp-iPad.build/Debug-iphoneos/FileDownLoadApp.build/FileDownLoadApp.xcent0#
+
+CTouch /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/Debug-iphoneos/FileDownLoadApp.app
+s318644438.410383
+e318644438.412356
+r1
+xTouch
+x/Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/Debug-iphoneos/FileDownLoadApp.app
+lSLF07#2@104"Touch /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/Debug-iphoneos/FileDownLoadApp.app318644438#318644438#0(0"0(0#0#0"8611078112#372"    cd /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /usr/bin/touch -c /Users/aaronksaunders/dev/projects/iPhone/FileDownLoadApp/build/Debug-iphoneos/FileDownLoadApp.app0#
+
