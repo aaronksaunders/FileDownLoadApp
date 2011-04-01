@@ -60,11 +60,7 @@
     NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
     NSData* theData = [NSData dataWithContentsOfURL: [NSURL URLWithString:sourceUrl] ];
 	
-	// save file in documents directory
-	NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
-	NSString *documentsDirectory = [paths objectAtIndex:0];	
-	
-	NSString *newFilePath = [documentsDirectory stringByAppendingString:[NSString stringWithFormat: @"/%@", fileName]];
+	NSString *newFilePath = [[[NSBundle mainBundle] resourcePath] stringByAppendingString:fileName];
 	
 	NSLog(@"Writing file to path %@", newFilePath);
 	//NSFileManager *fileManager=[NSFileManager defaultManager];
